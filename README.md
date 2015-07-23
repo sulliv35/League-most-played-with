@@ -14,7 +14,7 @@ To use:
 
 Make sure you are using Python 2.7
 
-Assuming you have pip installed you can run:
+If pip is installed (pip comes installed with later versions of python 2.7):
 
 `pip install requests` via the terminal/command line (possibly `sudo pip install requests` if on a mac)
 
