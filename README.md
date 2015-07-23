@@ -1,7 +1,7 @@
 # League-of-Legends-most-played-with
 Uses Riots API to display most played with users of x number of previous ranked solo/duo queue games
 
-User enter their username and number of of previous games they want to include, optionally 'all' to gather all games.
+User enters their username and number of of previous games they want to include, optionally 'all' to gather all games.
 The application first uses the username to get the users id.
 Next it goes through the users match history grabbing x number of match ids
 After the match ids are fully gathered they are then used to find and gather all players in the match.
