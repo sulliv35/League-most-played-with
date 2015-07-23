@@ -6,6 +6,7 @@ The application first uses the username to get the users id.
 Next it goes through the users match history grabbing x number of match ids
 After the match ids are fully gathered they are then used to find and gather all players in the match.
 Finally the dictionary of users with number of games played with is sorted and prints top 10 most played with
+NOTE: Riot limits 10 requests per 10 seconds, This drastically limits the time to search through games
 
 Make sure you are using Python 2.7
 
