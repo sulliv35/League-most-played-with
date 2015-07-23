@@ -12,10 +12,10 @@ Make sure you are using Python 2.7
 
 Assuming you have pip installed you can run:
 
-'pip install requests' via the terminal/command line (possibly 'sudo pip install requests' if on a mac)
+`pip install requests` via the terminal/command line (possibly `sudo pip install requests` if on a mac)
 
 Head over to https://developer.riotgames.com/ and click 'sign in' in the top right to sign in with your league info. After signing in, scroll down to see your key. Copy it.
 
 Open up leagueNumPlays.py in any text editor and replace XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX with your api-key (inside the apostrophes)
 
-You should then be able to head over to the terminal/command line, navigate to the directory and run python leagueNumPlays.py
+You should then be able to head over to the terminal/command line, navigate to the directory and run `python leagueNumPlays.py`
