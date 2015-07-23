@@ -92,8 +92,11 @@ def get_users_in_matches(match_history_id):  # go to matches using match id's an
                 match = response.json()
                 participants = match['participantIdentities']
                 break
-            except (ValueError, KeyError):
-                print 'encountered a value error, waiting 1 second then trying again'
+            except ValueError:
+                print 'encountered a Value Error, waiting 1 second then trying again'
+                time.sleep(1)
+            except KeyError:
+                print 'encountered a Key Error, waiting 1 second then trying again'
                 time.sleep(1)
         for x in range(10):
             if participants[x]['player']['summonerName'] not in participant_identities: # if user NOT listed add them with value 1
